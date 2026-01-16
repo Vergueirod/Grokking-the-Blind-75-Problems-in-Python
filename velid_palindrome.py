@@ -1,5 +1,7 @@
 word_to_validate = ['m','a','d','a','m']
 #word_to_validate = ['d','i','e','g','o']
+#word_to_validate = ['r','a','d','a','r']
+
 
 len_array = 0
 
@@ -30,3 +32,15 @@ for i in range(0,len(word_to_validate),1):
 
 if count == len(word_to_validate):
     print("It is a palindrome!")
+
+
+    # Step 1: I need create the object for received the array.
+
+class PalindromeChecker:
+
+    def __init__(self, char_array):
+        self.chars = char_array
+
+
+enginee = PalindromeChecker(word_to_validate)
+print(enginee.chars)
