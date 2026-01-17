@@ -33,7 +33,6 @@ for i in range(0,len(word_to_validate),1):
 if count == len(word_to_validate):
     print("It is a palindrome!")
 
-
     # Step 1: I need create the object for received the array.
 
 class PalindromeChecker:
